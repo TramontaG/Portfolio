@@ -1,0 +1,13 @@
+{
+  "name": "Portfolio",
+  "version": "1.0.0",
+  "description": "Personal Portfolio",
+  "main": "index.html",
+  "author": "Guilherme Tramontano <tramontano.guilherme@yahoo.com.br>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "express": "^4.18.2",
+    "parcel": "^2.8.0"
+  }
+}
