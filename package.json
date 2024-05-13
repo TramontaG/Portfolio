@@ -1,0 +1,29 @@
+{
+	"name": "portfolio-web",
+	"version": "1.0.0",
+	"description": "Hello world project",
+	"license": "MIT",
+	"scripts": {
+		"dev": "parcel ./src/index.html",
+		"build": "parcel build ./src/index.html",
+		"serve": "node ./server/index.js",
+		"start": "rm -rf ./dist && yarn build && yarn serve",
+		"test": "jest",
+		"docs": "typedoc ./src/index.ts"
+	},
+	"devDependencies": {
+		"@types/express": "^4.17.14",
+		"@types/jest": "^29.2.5",
+		"concurrently": "^7.5.0",
+		"parcel": "^2.12.0",
+		"typedoc": "^0.23.21"
+	},
+	"dependencies": {
+		"express": "^4.19.2",
+		"link-module-alias": "^1.2.0",
+		"typescript": "^4.9.3"
+	},
+	"_moduleAliases": {
+		"src": "dist"
+	}
+}
